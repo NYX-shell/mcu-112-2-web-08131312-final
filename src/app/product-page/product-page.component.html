@@ -1,0 +1,14 @@
+<div class="toolbar">
+  <span>
+    <input type="text" placeholder="產品名稱" [formControl]="formControl"/>
+    <button type="button" (click)="condition = formControl.value">查詢</button>
+  </span>
+</div>
+<app-product-card-list
+  [products]="(products$ | async) || []"
+  [totalCount]="(totalCount$ | async) || 0"
+  [(pageIndex)]="pageIndex"
+  (pageIndexChange)="onPageIndexChange($event)"
+  [pageSize]="pageSize"
+  (view)="onView($event)"
+></app-product-card-list>
