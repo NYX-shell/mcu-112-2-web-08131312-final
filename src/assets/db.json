@@ -1,0 +1,109 @@
+{
+  "products": [
+    {
+      "name": "A 產品",
+      "authors": [
+        "作者甲",
+        "作者乙",
+        "作者丙"
+      ],
+      "company": "博碩文件",
+      "isShow": true,
+      "discount": true,
+      "imgUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+      "createDate": "2024-06-16T09:39:08.490Z",
+      "price": 10000,
+      "id": 1
+    },
+    {
+      "name": "B 產品",
+      "authors": [
+        "作者甲",
+        "作者乙",
+        "作者丙"
+      ],
+      "company": "博碩文件",
+      "isShow": true,
+      "discount": false,
+      "imgUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+      "createDate": "2024-06-16T07:59:30.935Z",
+      "price": 10000,
+      "id": 2
+    },
+    {
+      "name": "C 產品",
+      "authors": [
+        "作者甲",
+        "作者乙",
+        "作者丙"
+      ],
+      "company": "博碩文件",
+      "isShow": true,
+      "discount": false,
+      "imgUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+      "createDate": "2024-06-16T12:41:44.041Z",
+      "price": 10000,
+      "id": 3
+    },
+    {
+      "name": "D 產品",
+      "authors": [
+        "作者甲",
+        "作者乙",
+        "作者丙"
+      ],
+      "company": "博碩文件",
+      "isShow": true,
+      "discount": false,
+      "imgUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+      "createDate": "2024-06-16T12:44:28.489Z",
+      "price": 10000,
+      "id": 4
+    },
+    {
+      "name": "E 產品",
+      "authors": [
+        "作者甲",
+        "作者乙",
+        "作者丙"
+      ],
+      "company": "博碩文件",
+      "isShow": true,
+      "discount": false,
+      "imgUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+      "createDate": "2024-06-16T12:59:40.580Z",
+      "price": 10000,
+      "id": 5
+    },
+    {
+      "name": "F 產品",
+      "authors": [
+        "作者甲",
+        "作者乙",
+        "作者丙"
+      ],
+      "company": "博碩文件",
+      "isShow": true,
+      "discount": false,
+      "imgUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+      "createDate": "2024-06-16T12:44:28.489Z",
+      "price": 10000,
+      "id": 4
+    },
+    {
+      "name": "G 產品",
+      "authors": [
+        "作者甲",
+        "作者乙",
+        "作者丙"
+      ],
+      "company": "博碩文件",
+      "isShow": true,
+      "discount": false,
+      "imgUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+      "createDate": "2024-06-16T12:59:40.580Z",
+      "price": 10000,
+      "id": 5
+    }
+  ]
+}

@@ -26,10 +26,7 @@ export class ProductCardListComponent {
   pageIndexChange = new EventEmitter<number>();
 
   @Output()
-  edit = new EventEmitter<Product>();
-
-  @Output()
-  remove = new EventEmitter<Product>();
+  addToCart = new EventEmitter<Product>();
 
   @Output()
   view = new EventEmitter<Product>();

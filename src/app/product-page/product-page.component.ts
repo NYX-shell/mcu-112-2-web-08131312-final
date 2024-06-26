@@ -65,6 +65,14 @@ export class ProductPageComponent {
     this.pageIndex = index;
   }
 
+  onAddToCart(product : Product):void{
+
+  }
+
+  onAdd():void{
+    this.router.navigate(['product','form']);
+  }
+
   onView(product : Product): void {
     this.router.navigate(['product', 'view',product.id]);
   }

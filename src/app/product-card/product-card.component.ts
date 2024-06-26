@@ -18,6 +18,9 @@ export class ProductCardComponent {
   @Input({ transform: booleanAttribute })
   isShow!: boolean;
 
+  @Input({ transform: booleanAttribute })
+  discount!: boolean;
+
   @Input() createDate!: Date;
   @Input({transform: numberAttribute }) price!: number;
 
@@ -25,10 +28,7 @@ export class ProductCardComponent {
   class = 'product-card';
 
   @Output()
-  edit = new EventEmitter<void>();
-
-  @Output()
-  remove = new EventEmitter<void>();
+  addToCart = new EventEmitter<void>();
 
   @Output()
   view = new EventEmitter<void>();
