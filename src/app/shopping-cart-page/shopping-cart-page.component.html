@@ -1,17 +1,17 @@
-<div class="container">
+<div class="container" [formGroup]="form">
   <section class="form">
     <h3>基本資料</h3>
     <div class="form-item">
       <label>姓名</label>
-      <input type="text">
+      <input type="text" formControName="name">
     </div>
     <div class="form-item">
       <label>地此</label>
-      <input type="text">
+      <input type="text" formControName="address">
     </div>
     <div class="form-item">
       <label>電話</label>
-      <input type="text">
+      <input type="text" formControName="telephone">
     </div>
   </section>
   <section class="detail">
